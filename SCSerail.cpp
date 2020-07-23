@@ -10,19 +10,19 @@
 
 SCSerail::SCSerail()
 {
-	IOTimeOut = 100;
+	IOTimeOut = 1;
 	pSerial = NULL;
 }
 
 SCSerail::SCSerail(u8 End):SCS(End)
 {
-	IOTimeOut = 100;
+	IOTimeOut = 1;
 	pSerial = NULL;
 }
 
 SCSerail::SCSerail(u8 End, u8 Level):SCS(End, Level)
 {
-	IOTimeOut = 100;
+	IOTimeOut = 1;
 	pSerial = NULL;
 }
 
